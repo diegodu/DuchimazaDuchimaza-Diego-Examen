@@ -80,7 +80,7 @@
 							<tbody>
 								<c:set var="i" value="${0}" />
 
-								<c:forEach var="telefono" items="${persona.vehiculos}">
+								<c:forEach var="vehiculo" items="${persona.vehiculos}">
 									<c:set var="i" value="${i+1}" />
 									<tr>
 										<td>${i}</td>
